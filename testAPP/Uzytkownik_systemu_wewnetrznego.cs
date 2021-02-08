@@ -1,4 +1,10 @@
+[Serializable]
 class Uzytkownik_systemu_wewnetrznego{
+    Recenzja recenzja;
+    Uzytkownik_platformy_zewnetrznej uzytkownikPlatformyZewnetrznej;
+    Filmy filmy;
+    Strona strona;
+    Statystyka statystyka;
     string imie, nazwisko, email, haslo, nick;
     int id;
     bool autoryzacja;
