@@ -1,4 +1,6 @@
+[Serializable]
 class Uzytkownik_platformy_zewnetrznej {
+    
     string login, haslo;
     bool autoryzacja;
     int id;

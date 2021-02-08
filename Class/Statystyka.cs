@@ -1,4 +1,6 @@
+[Serializable]
 class Statystyka{
+    
     string nazwa, wartosc, tytul_gry;
 
     public string Nazwa { get => nazwa; set => nazwa = value; }

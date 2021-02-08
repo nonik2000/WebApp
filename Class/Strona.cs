@@ -1,4 +1,10 @@
+[Serializable]
 class Strona {
+    News news;
+    Wydarzenie wydarzenie;
+    Gra gra;
+    Api api;
+    Uzytkownik_platformy_zewnetrznej uzytkownikPlatformyZewnetrznej;;
     string nazwa, url;
     bool aktywna;
 

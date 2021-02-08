@@ -1,3 +1,4 @@
+[Serializable]
 class Api{
     string nazwa, url, api_key;
 

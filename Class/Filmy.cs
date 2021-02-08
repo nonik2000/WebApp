@@ -1,4 +1,8 @@
+[Serializable]
 class Filmy{
+    Recenzja recencja;
+    Komentarz komentarz;
+    Uzytkownik_systemu_wewnetrznego uzytkownik_systemu_wewnetrznego;
     string nazwa, link, opis;
     DateTime data_godzina_dodania;
     bool aktywne;

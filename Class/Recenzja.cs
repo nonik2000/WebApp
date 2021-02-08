@@ -1,3 +1,4 @@
+[Serializable]
 class Recenzja{
     string tresc, nick;
     int object_id;

@@ -1,4 +1,8 @@
+[Serializable]
 class Wydarzenie {
+    Strona strona;
+    Gra gra;
+    Komentarz komentarz;
     string wydarzenie, opis;
     DateTime data_godzina;
     bool aktywne;

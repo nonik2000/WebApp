@@ -1,4 +1,10 @@
+[Serializable]
 class Komentarz{
+    Gra gra;
+    Recenzja recenzja;
+    News news;
+    Wydarzenie wydarzenie;
+    Filmy filmy;
     string tersc, nick;
     int object_id;
     DateTime czas_data_dodania;
